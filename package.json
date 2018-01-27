@@ -2,7 +2,7 @@
   "name": "express_blog",
   "version": "1.0.0",
   "description": "A express js test app.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

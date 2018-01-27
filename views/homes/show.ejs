@@ -1,0 +1,11 @@
+<h1>This is a blog</h1>
+
+<h2>Latest news</h2>
+
+<ul>
+  <% posts.forEach((post) => { %>
+    <li>
+      <a href="/posts/1"><%= post.title %></a>
+    </li>
+  <% }); %>
+</ul>

@@ -1,7 +1,12 @@
-<h1><%= post.title %></h1>
+<%- include('../shared/header') -%>
+<%- include('../shared/navigation') -%>
 
-by: <%= post.author %>
+<div class="container">
+  <h1><%= post.title %></h1>
 
-<div id='post'>
-  <%= post.body %>
+  by: <%= post.author %>
+
+  <div id='post'>
+    <%= post.body %>
+  </div>
 </div>
